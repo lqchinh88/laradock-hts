@@ -469,7 +469,7 @@ services:
       - ./data/certbot/certs/:/var/certs
       - ./certbot/letsencrypt/:/var/www/letsencrypt
     environment:
-      - CN="core.hoathanson.com"
-      - EMAIL="lq.chinh88@gmail.com"
+      - CN=core.hoathanson.com
+      - EMAIL=sondo@hoathanson.com
     networks:
       - frontend
